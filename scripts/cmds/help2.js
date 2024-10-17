@@ -14,7 +14,7 @@ const doNotDelete = "⾕ | 𝙔𝘼𝙕𝙆𝙔 𝘼𝙄";
 
 module.exports = {
                                 config: {
-                                                                name: "help",
+                                                                name: "help2",
                                                                 version: "1.17",
                                                                 author: "NTKhang", //Modified By Zedric
                                                                 countDown: 5,
