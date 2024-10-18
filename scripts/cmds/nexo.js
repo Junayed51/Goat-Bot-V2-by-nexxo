@@ -1,6 +1,6 @@
 module.exports = {
  config: {
-   name: "nexxo",
+   name: "Junu",
    version: "1.0",
    author: "NEXXO",//remodified by NEXXO
    countDown: 5,
@@ -12,7 +12,7 @@ module.exports = {
 
  onStart: async function(){}, 
  onChat: async function({ event, message, getLang }) {
- if (event.body && event.body.toLowerCase() === "neoaz") {
+ if (event.body && event.body.toLowerCase() === "Junayed") {
  return message.reply({
  body: `𝚠𝚑𝚢 𝚊𝚛𝚎 𝚢𝚘𝚞 𝚋𝚊𝚛𝚔𝚒𝚗𝚐!?`,
  attachment: await global.utils.getStreamFromURL("https://i.ibb.co/GHncM6g/image.gif")
