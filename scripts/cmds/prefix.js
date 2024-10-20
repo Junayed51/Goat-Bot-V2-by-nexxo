@@ -1,4 +1,4 @@
-module.exports = {
+ýmodule.exports = {
  config: {
 	 name: "prefix",
 	 version: "1.0",
@@ -16,7 +16,7 @@ module.exports = {
  return message.reply({
  body: `
 𝙿𝚛𝚎𝚏𝚒𝚡 𝚒𝚜 [ - ]`,
- attachment: await global.utils.getStreamFromURL("https://i.ibb.co/W28m1HS/image.gif")
+ attachment: await global.utils.getStreamFromURL("https://ibb.co.com/mcS8Fs7")
  });
  }
  }
