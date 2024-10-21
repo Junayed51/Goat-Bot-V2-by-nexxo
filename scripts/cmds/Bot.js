@@ -15,7 +15,7 @@ module.exports = {
  if (event.body && event.body.toLowerCase() === "bot") {
  return message.reply({
  body: `👉🏻👌🏿`,
- attachment: await global.utils.getStreamFromURL("https://i.imgur.com/Jj6DAJC.jpeg")
+ attachment: await global.utils.getStreamFromURL("https://i.imgur.com/Jj6DAJC.jpeg") ("https://i.imgur.com/YWyI4hP.jpg")
  });
  }
  }
